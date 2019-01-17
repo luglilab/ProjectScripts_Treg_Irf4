@@ -31,14 +31,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="382" />
-          <entry key="txt" value="12" />
+          <entry key="py" value="839" />
+          <entry key="txt" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="382" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="839" />
         </counts>
       </usages-collector>
     </session>
@@ -48,10 +48,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
+            <state relative-caret-position="585">
+              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1547741745000" expanded="true" signature="884:1153" ph="..." />
               </folding>
             </state>
           </provider>
@@ -86,7 +87,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="1282" />
     <option name="width" value="1278" />
     <option name="height" value="1440" />
@@ -180,11 +181,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547737732239</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First commit">
+      <created>1547739093766</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1547739093766</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fustq-dump added">
+      <created>1547740617004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547740617004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1282" y="0" width="1278" height="1440" extended-state="0" />
+    <frame x="973" y="0" width="1587" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -194,8 +209,8 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3043801" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49967638" visible="true" weight="0.3036377" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50032365" side_tool="true" weight="0.3036377" />
       <window_info anchor="bottom" id="File Transfer" weight="0.329582" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -222,15 +237,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Fustq-dump added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fustq-dump added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="117" selection-start-line="23" selection-start-column="117" selection-end-line="23" selection-end-column="117" />
+        <state relative-caret-position="585">
+          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1547741745000" expanded="true" signature="884:1153" ph="..." />
           </folding>
         </state>
       </provider>
