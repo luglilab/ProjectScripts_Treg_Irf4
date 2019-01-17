@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" beforeDir="false" afterPath="$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_STAR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,38 +21,50 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1111" />
-          <entry key="txt" value="30" />
+          <entry key="py" value="1590" />
+          <entry key="txt" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="30" />
-          <entry key="Python" value="1111" />
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="1590" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="783">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="784">
+              <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1547742970000" expanded="true" signature="1186:1455" ph="..." />
+                <marker date="1547743017000" expanded="true" signature="1205:1474" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,12 +84,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/mapping_STAR.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" />
+        <option value="$PROJECT_DIR$/mapping_STAR.py" />
       </list>
     </option>
   </component>
@@ -201,38 +216,59 @@
       <option name="project" value="LOCAL" />
       <updated>1547741773277</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fustqc added">
+      <created>1547742986434</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547742986434</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fustqc added">
+      <created>1547742992570</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547742992570</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Multiqc added">
+      <created>1547743028368</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547743028368</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="973" y="0" width="1587" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" anchor="top" id="Terminal" order="0" sideWeight="0.49967638" visible="true" weight="0.30316743" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5088997" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.50873786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49967638" visible="true" weight="0.3036377" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50032365" side_tool="true" weight="0.3036377" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.329582" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" weight="0.32944983" />
-      <window_info anchor="right" id="R Graphics" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50032365" side_tool="true" weight="0.3036377" />
+      <window_info anchor="bottom" id="File Transfer" order="5" weight="0.329582" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Remote Host" order="1" />
+      <window_info anchor="right" id="R Packages" order="2" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32944983" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,16 +281,27 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Fustq-dump added" />
     <MESSAGE value="Fustqc added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fustqc added" />
+    <MESSAGE value="Multiqc added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiqc added" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="784">
+          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1547742970000" expanded="true" signature="1186:1455" ph="..." />
+            <marker date="1547743017000" expanded="true" signature="1205:1474" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
