@@ -7,13 +7,13 @@ import traceback
 fastqdump = "/home/spuccio/miniconda3/envs/rnaseq_env/bin/fastq-dump"
 fastqc = "/home/spuccio/miniconda3/envs/rnaseq_env/bin/fastqc"
 multiqc = "/home/spuccio/miniconda3/envs/rnaseq_env/bin/multiqc"
-#
+# set variables
 thread = 40
 maindir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010"
 rawdatadir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/raw_data_Nature_Imm_GSE49929"
 fastqcdir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/fastqc_Nature_Imm_GSE49929"
 multiqcdir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/multiqc_Nature_Imm_GSE49929"
-#
+# list
 sraid = ["SRR953136","SRR953137","SRR953140","SRR953141","SRR953142"]
 fastqreads = ["Wtrep1_r1.fastq","Wtrep1_r2.fastq","Wtrep2_r1.fastq","Wtrep2_r2.fastq","Korep1_r1.fastq","Korep1_r2.fastq",
               "Korep2_r1.fastq","Korep2_r2.fastq","Korep3_r1.fastq","Korep3_r2.fastq"]
