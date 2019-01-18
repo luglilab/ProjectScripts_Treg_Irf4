@@ -73,3 +73,4 @@ except (subprocess.CalledProcessError, traceback), e:
     sys.exit(1)
 else:
     print "MultiQC process complete."
+
