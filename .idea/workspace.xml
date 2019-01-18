@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="" />
+    <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rnaseq_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mapping_STAR.py" beforeDir="false" afterPath="$PROJECT_DIR$/mapping_STAR.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,24 +24,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1778" />
+          <entry key="py" value="2471" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="1778" />
+          <entry key="Python" value="2471" />
         </counts>
       </usages-collector>
     </session>
@@ -53,14 +57,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="856">
-              <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
+            <state relative-caret-position="234">
+              <caret line="13" column="109" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="109" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1547743017000" expanded="true" signature="1205:1474" ph="..." />
+                <marker date="1547808431000" expanded="true" signature="1205:1474" ph="..." />
               </folding>
             </state>
           </provider>
@@ -69,10 +73,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="684">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,12 +110,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/mapping_STAR.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/rnaseq_annotation.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" />
         <option value="$PROJECT_DIR$/mapping_STAR.py" />
+        <option value="$PROJECT_DIR$/edgeR_output_parser.py" />
+        <option value="$PROJECT_DIR$/rnaseq_annotation.py" />
       </list>
     </option>
   </component>
@@ -267,11 +286,26 @@
       <option name="project" value="LOCAL" />
       <updated>1547807698455</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="STAR mapping">
+      <created>1547808333756</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547808333756</updated>
+    </task>
+    <task id="LOCAL-00016" summary="STAR mapping">
+      <created>1547808435141</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547808435141</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -280,7 +314,7 @@
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5007943" side_tool="true" visible="true" weight="0.30289534" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5007943" side_tool="true" weight="0.30289534" />
       <window_info anchor="bottom" id="File Transfer" order="5" weight="0.13882703" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
@@ -289,7 +323,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4992057" visible="true" weight="0.30289534" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4992057" visible="true" weight="0.30289534" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="R Packages" order="2" />
@@ -315,23 +349,43 @@
     <option name="LAST_COMMIT_MESSAGE" value="STAR mapping" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="109" lean-forward="true" selection-start-line="13" selection-end-line="13" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1547808431000" expanded="true" signature="1205:1474" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="684">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
+    <entry file="file://$PROJECT_DIR$/edgeR_output_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="856">
-          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1547743017000" expanded="true" signature="1205:1474" ph="..." />
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
