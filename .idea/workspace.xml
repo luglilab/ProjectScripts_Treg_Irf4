@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="" />
+    <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +16,8 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,14 +32,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1590" />
+          <entry key="py" value="1778" />
           <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="1590" />
+          <entry key="Python" value="1778" />
         </counts>
       </usages-collector>
     </session>
@@ -52,10 +55,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
+            <state relative-caret-position="856">
               <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -65,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+            <state relative-caret-position="306">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -119,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +133,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,22 +255,35 @@
       <option name="project" value="LOCAL" />
       <updated>1547746537658</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="STAR mapping">
+      <created>1547802833330</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547802833330</updated>
+    </task>
+    <task id="LOCAL-00014" summary="STAR mapping">
+      <created>1547807698455</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547807698455</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <layout>
-      <window_info active="true" anchor="top" id="Terminal" order="0" sideWeight="0.49967638" visible="true" weight="0.30316743" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.50873786" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.5087371" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50032365" side_tool="true" weight="0.3036377" />
-      <window_info anchor="bottom" id="File Transfer" order="5" weight="0.329582" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5007943" side_tool="true" visible="true" weight="0.30289534" />
+      <window_info anchor="bottom" id="File Transfer" order="5" weight="0.13882703" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -275,6 +291,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4992057" visible="true" weight="0.30289534" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="R Packages" order="2" />
@@ -300,23 +317,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="STAR mapping" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
+    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1547743017000" expanded="true" signature="1205:1474" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="76" selection-start-line="8" selection-start-column="76" selection-end-line="8" selection-end-column="76" />
+        <state relative-caret-position="856">
+          <caret line="73" selection-start-line="73" selection-end-line="74" selection-end-column="37" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+            <marker date="1547743017000" expanded="true" signature="1205:1474" ph="..." />
           </folding>
         </state>
       </provider>
