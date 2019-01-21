@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="STAR mapping">
+    <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,10 +87,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="py" value="1887" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="1887" />
         </counts>
       </usages-collector>
@@ -437,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548082452062</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="venn">
+      <created>1548096655759</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1548096655759</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -483,7 +492,8 @@
     <MESSAGE value="Fustqc added" />
     <MESSAGE value="Multiqc added" />
     <MESSAGE value="STAR mapping" />
-    <option name="LAST_COMMIT_MESSAGE" value="STAR mapping" />
+    <MESSAGE value="venn" />
+    <option name="LAST_COMMIT_MESSAGE" value="venn" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
