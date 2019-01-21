@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venn_plot_figure4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venn_plot_figure4batf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +14,11 @@
     <session id="-1488763899">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,14 +53,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-127230293">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="788" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="788" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+            <state relative-caret-position="828">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1547808431000" expanded="true" signature="1205:1474" ph="..." />
@@ -70,11 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venn_plot_figure4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="612">
+              <caret line="34" selection-start-line="34" selection-end-line="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -91,7 +127,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="216">
               <caret line="15" column="14" selection-start-line="15" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -103,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="486">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -126,10 +162,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/mapping_STAR.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/venn_plot_figure4.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/rnaseq_annotation.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/mapping_STAR.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -140,6 +177,7 @@
         <option value="$PROJECT_DIR$/rnaseq_annotation.py" />
         <option value="$PROJECT_DIR$/venn_plot_figure4batf.py" />
         <option value="$PROJECT_DIR$/venn_plot_figure4.py" />
+        <option value="$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py" />
       </list>
     </option>
   </component>
@@ -328,15 +366,23 @@
       <option name="project" value="LOCAL" />
       <updated>1547822430535</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="STAR mapping">
+      <created>1547830534136</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547830534136</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17355044" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17593329" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
@@ -350,7 +396,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4992057" visible="true" weight="0.2976986" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4992057" visible="true" weight="0.27023014" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Remote Host" order="1" />
       <window_info anchor="right" id="R Packages" order="2" />
@@ -376,47 +422,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="STAR mapping" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/edgeR_output_parser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="14" selection-start-line="15" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="49" column="49" lean-forward="true" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1547808431000" expanded="true" signature="1205:1474" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/edgeR_output_parser.py" />
     <entry file="file://$PROJECT_DIR$/venn_plot_figure4batf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -424,10 +430,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="14" selection-start-line="15" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1547808431000" expanded="true" signature="1205:1474" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venn_plot_figure4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="612">
+          <caret line="34" selection-start-line="34" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
         </state>
       </provider>
     </entry>
