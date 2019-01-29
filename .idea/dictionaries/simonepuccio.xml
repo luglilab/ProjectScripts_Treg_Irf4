@@ -12471,6 +12471,24 @@
       <w>cyrestPOST</w>
       <w>cyrestPUT</w>
       <w>cytoband.col</w>
+      <w>cytofCore</w>
+      <w>cytofCore.applyFileCompensation</w>
+      <w>cytofCore.batchFileCompensate</w>
+      <w>cytofCore.combineChannels</w>
+      <w>cytofCore.concatenateDirectoryFiles</w>
+      <w>cytofCore.copyImdXml</w>
+      <w>cytofCore.extract.R</w>
+      <w>cytofCore.read.conf</w>
+      <w>cytofCore.read.imd</w>
+      <w>cytofCore.read.imd.xml</w>
+      <w>cytofCore.read.rd8.cytof1</w>
+      <w>cytofCore.read.rd8.cytof2</w>
+      <w>cytofCore.read.tof.calibration</w>
+      <w>cytofCore.rewriteImdCoeffs</w>
+      <w>cytofCore.subtract</w>
+      <w>cytofCore.updateFlowFrameKeywords</w>
+      <w>cytofCore.updatePanel</w>
+      <w>cytofCore.write.FCS</w>
       <w>cytof_addToFCS</w>
       <w>cytof_cluster</w>
       <w>cytof_clusterMtrx</w>
