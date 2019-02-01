@@ -33,3 +33,4 @@ BatfFCpos[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/BatfF
 BatfFCneg[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/BatfFCneg.txt",sep="\t",header=False,index=False)
 CommonFCpos[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/CommonFCpos.txt",sep="\t",header=False,index=False)
 CommonFCneg[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/CommonFCneg.txt",sep="\t",header=False,index=False)
+
