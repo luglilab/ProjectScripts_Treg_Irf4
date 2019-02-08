@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pscan_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure5/rnaseq_Pnas_GSE116347_annotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enrichment_analysis_preparation.txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/enrichment_analysis_preparation.txt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pscan_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/pscan_analysis.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,115 +30,33 @@
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1488763899">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="3562" />
-          <entry key="txt" value="50" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="50" />
-          <entry key="Python" value="3562" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1275361154">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-127230293">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="R" value="1" />
-          <entry key="py" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="7" />
-          <entry key="R" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="4650" />
-          <entry key="txt" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="15" />
-          <entry key="Python" value="4650" />
-        </counts>
-      </usages-collector>
-    </session>
     <session id="-1833514259">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="R" value="1" />
-          <entry key="py" value="2" />
-          <entry key="r" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="2" />
-          <entry key="R" value="2" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.5" value="4" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="3029" />
-          <entry key="txt" value="20" />
+          <entry key="Python Console" value="6" />
+          <entry key="py" value="1052" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="20" />
-          <entry key="Python" value="3029" />
+          <entry key="Python" value="1058" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -144,73 +64,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bar_plot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="70" selection-start-line="70" selection-end-line="78" selection-end-column="21" />
-              <folding>
-                <element signature="e#12#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venn_plot_figure4batf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enrichment_analysis_preparation.txt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enrichment_analysis.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="14" selection-start-line="15" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="252">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -219,10 +76,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
+        <entry file="file://$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="719">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1240">
+              <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -243,10 +124,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/heatmap_fig3.r">
+        <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+            <state relative-caret-position="2610">
+              <caret line="153" column="107" selection-start-line="153" selection-start-column="107" selection-end-line="153" selection-end-column="107" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="30" column="13" lean-forward="true" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Figure5/rnaseq_Pnas_GSE116347_annotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#1#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venn_plot_figure4batf.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="96" />
             </state>
           </provider>
         </entry>
@@ -260,6 +186,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GRCm38indexpath</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -267,8 +198,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/bar_plot.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/ma_plot_batf.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pscan_analysis.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/venn_plot_figure4.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/enrichment_analysis_preparation.txt.py" root0="SKIP_INSPECTION" />
@@ -296,6 +227,10 @@
         <option value="$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py" />
         <option value="$PROJECT_DIR$/enrichment_analysis_preparation.txt.py" />
         <option value="$PROJECT_DIR$/pscan_analysis.py" />
+        <option value="$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py" />
+        <option value="$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py" />
+        <option value="$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py" />
+        <option value="$PROJECT_DIR$/Figure5/rnaseq_Pnas_GSE116347_annotation.py" />
       </list>
     </option>
   </component>
@@ -315,7 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,10 +257,16 @@
               <item name="ProjectScripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectScripts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectScripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectScripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Figure5" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,6 +359,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547736917228</updated>
+      <workItem from="1549121331588" duration="2515000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1547737135432</created>
@@ -616,22 +557,31 @@
       <option name="project" value="LOCAL" />
       <updated>1548768293605</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="repeat heatmap">
+      <created>1549042842515</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1549042842515</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.17394757" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18030183" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50119144" side_tool="true" weight="0.27023014" />
-      <window_info anchor="bottom" id="File Transfer" order="5" weight="0.13882703" />
+      <window_info anchor="bottom" id="File Transfer" order="5" weight="0.27542686" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -639,7 +589,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4988086" visible="true" weight="0.4595397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.4988086" visible="true" weight="0.32368225" />
       <window_info anchor="right" id="Database" order="0" weight="0.32962668" />
       <window_info anchor="right" id="Remote Host" order="1" weight="0.32962668" />
       <window_info anchor="right" id="R Packages" order="2" weight="0.32962668" />
@@ -708,18 +658,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bar_plot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="70" selection-start-line="70" selection-end-line="78" selection-end-column="21" />
-          <folding>
-            <element signature="e#12#30#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="630">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venn_plot_figure4batf.py">
+    <entry file="file://$PROJECT_DIR$/enrichment_analysis.R">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        <state relative-caret-position="648">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -727,16 +674,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py">
+    <entry file="file://$PROJECT_DIR$/heatmap_fig3.r">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="96" />
+        <state relative-caret-position="198">
+          <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -750,44 +704,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heatmap_fig3.r">
+    <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="118" selection-start-line="11" selection-start-column="118" selection-end-line="11" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enrichment_analysis.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="2610">
+          <caret line="153" column="107" selection-start-line="153" selection-start-column="107" selection-end-line="153" selection-end-column="107" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+    <entry file="file://$PROJECT_DIR$/venn_plot_figure4batf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="14" selection-start-line="15" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="126">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venn_single_cell_rna_seq_lung_cancer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rnaseq_annotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="13" lean-forward="true" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="719">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
+    <entry file="file://$PROJECT_DIR$/Figure5/rnaseq_Pnas_GSE116347_annotation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="630">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#1#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="87" column="41" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
