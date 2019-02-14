@@ -1,6 +1,4 @@
 import pandas as pd
-import matplotlib
-matplotlib.use('agg')
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -15,8 +13,8 @@ irf4_chip_annotated = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Irf4_tum
 common_chip_rnaseq = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Common_tumor_intersect_annotated_maplot.txt"
 # load data file
 RnaseqGene = pd.read_csv(filernaseq,
-                         sep="\t",
-                         header=0)
+                sep="\t",
+                header=0)
 
 BatfGene = pd.read_csv(batf_chip_annotated,
                        sep="\t",
@@ -45,44 +43,39 @@ dfRnaseqCommonmerge = pd.merge(dfRnaseqIrf4Batfmerged, CommonGene, left_on="Id",
 dfRnaseqCommonmerge.rename(columns={0: 'BatfIrf4TargetGene', 1: 'BatfIrf4TargetAnno'}, inplace=True)
 # drop columns irf4 genes batf anno
 # dfRnaseqCommonmerge = dfRnaseqCommonmerge.drop(['0_x', '1_y', '0_y', 0, 1], axis=1)
-dfRnaseqCommonmerge = dfRnaseqCommonmerge.drop(['BatfTargetGene', 'Irf4TargetGene', 'Irf4TargetGeneAnnotation', 'BatfIrf4TargetGene'], axis=1)
-# rename columns
-dfRnaseqCommonmerge = dfRnaseqCommonmerge.rename(columns={'BatfTargetGeneAnnotation': 'BATF_target',
-                                                          'BatfIrf4TargetAnno': 'BATF_common'})
-# print (dfRnaseqCommonmerge.head())
+# drop columns batf genes batf anno
+# dfRnaseqCommonmerge = dfRnaseqCommonmerge.drop(['0_x', '1_x','0_y',0,2], axis=1)
+dfRnaseqCommonmerge = dfRnaseqCommonmerge.drop(['BatfTargetGene', 'Irf4TargetGene', 'BatfTargetGeneAnnotation',
+                                                'BatfIrf4TargetGene'], axis=1)
+dfRnaseqCommonmerge = dfRnaseqCommonmerge.rename(columns={'Irf4TargetGeneAnnotation': 'IRF4_target',
+                                                          'BatfIrf4TargetAnno': 'IRF4_common'})
 # color definition
-dfRnaseqCommonmerge['color'] = "lightgrey"  # "'#cccccc' # set grey for all expressed genes
+dfRnaseqCommonmerge['color'] = "lightgrey"   # "'#cccccc' # set grey for all expressed genes
 dfRnaseqCommonmerge_intergenic = dfRnaseqCommonmerge.copy()
 dfRnaseqCommonmerge_promoter = dfRnaseqCommonmerge.copy()
 dfRnaseqCommonmerge_exon = dfRnaseqCommonmerge.copy()
 dfRnaseqCommonmerge_intron = dfRnaseqCommonmerge.copy()
 # color of intergenic
-dfRnaseqCommonmerge_intergenic.loc[
-    dfRnaseqCommonmerge_intergenic['BATF_target'] == "intergenic", 'color'] = "limegreen"  # "#ff1919"
-dfRnaseqCommonmerge_intergenic.loc[
-    dfRnaseqCommonmerge_intergenic['BATF_common'] == "intergenic", 'color'] = "purple"  # "#774177"
+dfRnaseqCommonmerge_intergenic.loc[dfRnaseqCommonmerge_intergenic['IRF4_target'] == "intergenic", 'color'] = "orange"      # "#ff1919"
+dfRnaseqCommonmerge_intergenic.loc[dfRnaseqCommonmerge_intergenic['IRF4_common'] == "intergenic", 'color'] = "purple"          #"#774177"
+# dfRnaseqCommonmerge_intergenic['color'] = np.where(dfRnaseqCommonmerge_intergenic['IRF4_target']=='intergenic' , 'red', 'lightgrey')
 # color of promoter
-dfRnaseqCommonmerge_promoter.loc[
-    dfRnaseqCommonmerge_promoter['BATF_target'] == "promoter-TSS ", 'color'] = "limegreen"  # "#ff1919"
-dfRnaseqCommonmerge_promoter.loc[
-    dfRnaseqCommonmerge_promoter['BATF_common'] == "promoter-TSS ", 'color'] = "purple"  # "#774177"
+dfRnaseqCommonmerge_promoter.loc[dfRnaseqCommonmerge_promoter['IRF4_target'] == "promoter-TSS ", 'color'] = "orange"      # "#ff1919"
+dfRnaseqCommonmerge_promoter.loc[dfRnaseqCommonmerge_promoter['IRF4_common'] == "promoter-TSS ", 'color'] = "purple"          #"#774177"
+# dfRnaseqCommonmerge_promoter['color'] = np.where(dfRnaseqCommonmerge_promoter['IRF4_target']=='promoter-TSS ' , 'red', 'lightgrey')
 # color of intron
-dfRnaseqCommonmerge_intron.loc[
-    dfRnaseqCommonmerge_intron['BATF_target'] == "intron ", 'color'] = "limegreen"  # "#ff1919"
-dfRnaseqCommonmerge_intron.loc[dfRnaseqCommonmerge_intron['BATF_common'] == "intron ", 'color'] = "purple"  # "#774177"
+dfRnaseqCommonmerge_intron.loc[dfRnaseqCommonmerge_intron['IRF4_target'] == "intron ", 'color'] = "orange"      # "#ff1919"
+dfRnaseqCommonmerge_intron.loc[dfRnaseqCommonmerge_intron['IRF4_common'] == "intron ", 'color'] = "purple"          #"#774177"
+# dfRnaseqCommonmerge_intron['color'] = np.where( dfRnaseqCommonmerge_intron['IRF4_target']=='intron ' , 'red', 'lightgrey')
 # color of exon
-dfRnaseqCommonmerge_exon.loc[dfRnaseqCommonmerge_exon['BATF_target'] == "exon ", 'color'] = "limegreen"  # "#ff1919"
-dfRnaseqCommonmerge_exon.loc[dfRnaseqCommonmerge_exon['BATF_common'] == "exon ", 'color'] = "purple"  # "#774177"
+dfRnaseqCommonmerge_exon.loc[dfRnaseqCommonmerge_exon['IRF4_target'] == "exon ", 'color'] = "orange"      # "#ff1919"
+dfRnaseqCommonmerge_exon.loc[dfRnaseqCommonmerge_exon['IRF4_common'] == "exon ", 'color'] = "purple"          #"#774177
 # Now, data is ready for MA plot
 # In MA plot, X-axis is log2 normalized mean of expression counts
-dfRnaseqCommonmerge_intergenic['A'] = np.log2(
-    (dfRnaseqCommonmerge_intergenic['MC38'] + dfRnaseqCommonmerge_intergenic['Spleen']) / 2)
-dfRnaseqCommonmerge_promoter['A'] = np.log2(
-    (dfRnaseqCommonmerge_promoter['MC38'] + dfRnaseqCommonmerge_promoter['Spleen']) / 2)
-dfRnaseqCommonmerge_intron['A'] = np.log2(
-    (dfRnaseqCommonmerge_intron['MC38'] + dfRnaseqCommonmerge_intron['Spleen']) / 2)
-dfRnaseqCommonmerge_exon['A'] = np.log2(
-    (dfRnaseqCommonmerge_exon['MC38'] + dfRnaseqCommonmerge_exon['Spleen']) / 2)
+dfRnaseqCommonmerge_intergenic['A']=np.log2( (dfRnaseqCommonmerge_intergenic['MC38']+ dfRnaseqCommonmerge_intergenic['Spleen'])/2 )
+dfRnaseqCommonmerge_promoter['A']=np.log2( (dfRnaseqCommonmerge_promoter['MC38']+ dfRnaseqCommonmerge_promoter['Spleen'])/2 )
+dfRnaseqCommonmerge_intron['A']=np.log2( (dfRnaseqCommonmerge_intron['MC38']+ dfRnaseqCommonmerge_intron['Spleen'])/2 )
+dfRnaseqCommonmerge_exon['A']=np.log2( (dfRnaseqCommonmerge_exon['MC38']+ dfRnaseqCommonmerge_exon['Spleen'])/2 )
 # plot
 dfRnaseqCommonmerge_intergenic = dfRnaseqCommonmerge_intergenic.sort_values(by=['color'])
 dfRnaseqCommonmerge_promoter = dfRnaseqCommonmerge_promoter.sort_values(by=['color'])
@@ -90,46 +83,40 @@ dfRnaseqCommonmerge_intron = dfRnaseqCommonmerge_intron.sort_values(by=['color']
 dfRnaseqCommonmerge_exon = dfRnaseqCommonmerge_exon.sort_values(by=['color'])
 #
 plt.subplot(2, 2, 1)
-plt.subplots_adjust(hspace=0.1)
-plt.scatter(dfRnaseqCommonmerge_promoter['A'], dfRnaseqCommonmerge_promoter['log2FoldChange'],
-            c=dfRnaseqCommonmerge_promoter['color'], alpha=0.7, s=5)
-plt.title('Promoter BATF')
+plt.subplots_adjust(hspace = 0.1)
+plt.scatter(dfRnaseqCommonmerge_promoter['A'], dfRnaseqCommonmerge_promoter['log2FoldChange'], c=dfRnaseqCommonmerge_promoter['color'],alpha=0.7, s=5)
+plt.title('Promoter IRF4')
 plt.axhline(y=0, color='b', linestyle='--')
 plt.ylabel('M', fontsize=10)
 plt.xticks(fontsize=10)
 plt.yticks(fontsize=10)
 #
 plt.subplot(2, 2, 2)
-plt.subplots_adjust(hspace=0.5)
-plt.scatter(dfRnaseqCommonmerge_intergenic['A'], dfRnaseqCommonmerge_intergenic['log2FoldChange'],
-            c=dfRnaseqCommonmerge_intergenic['color'], alpha=0.7, s=5)
+plt.subplots_adjust(hspace = 0.5)
+plt.scatter(dfRnaseqCommonmerge_intergenic['A'], dfRnaseqCommonmerge_intergenic['log2FoldChange'], c=dfRnaseqCommonmerge_intergenic['color'],alpha=0.7, s=5)
 plt.axhline(y=0, color='b', linestyle='--')
-plt.ylabel('M', fontsize=10)
 plt.xticks(fontsize=10)
 plt.yticks(fontsize=10)
-plt.title('Intergenic BATF')
+plt.title('Intergenic IRF4')
 #
 plt.subplot(2, 2, 3)
-plt.subplots_adjust(hspace=0.1)
-plt.scatter(dfRnaseqCommonmerge_intron['A'], dfRnaseqCommonmerge_intron['log2FoldChange'],
-            c=dfRnaseqCommonmerge_intron['color'], alpha=0.7, s=5)
-plt.title('Intron BATF')
+plt.subplots_adjust(hspace = 0.1)
+plt.scatter(dfRnaseqCommonmerge_intron['A'], dfRnaseqCommonmerge_intron['log2FoldChange'], c=dfRnaseqCommonmerge_intron['color'],alpha=0.7,s=5)
+plt.title('Intron IRF4')
 plt.axhline(y=0, color='b', linestyle='--')
-plt.xlabel('A', fontsize=10)
+plt.xlabel('A',fontsize=10)
 plt.ylabel('M', fontsize=10)
 plt.xticks(fontsize=10)
 plt.yticks(fontsize=10)
 #
 plt.subplot(2, 2, 4)
-plt.subplots_adjust(hspace=0.5)
-plt.scatter(dfRnaseqCommonmerge_exon['A'], dfRnaseqCommonmerge_exon['log2FoldChange'],
-            c=dfRnaseqCommonmerge_exon['color'], alpha=0.7, s=5)
+plt.subplots_adjust(hspace = 0.5)
+plt.scatter(dfRnaseqCommonmerge_exon['A'], dfRnaseqCommonmerge_exon['log2FoldChange'], c=dfRnaseqCommonmerge_exon['color'],alpha=0.7,s=5)
 plt.axhline(y=0, color='b', linestyle='--')
-plt.xlabel('A', fontsize=10)
-plt.ylabel('M', fontsize=10)
+plt.xlabel('A',fontsize=10)
 plt.xticks(fontsize=10)
 plt.yticks(fontsize=10)
-plt.title('Exon BATF')
+plt.title('Exon IRF4')
 #
-plt.savefig("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/MAplot_intergenic_promoter_BATF.eps", format='eps')
-# plt.show()
+plt.savefig("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/MAplot_intergenic_promoter_IRF4.eps", format='eps')
+#plt.show()
