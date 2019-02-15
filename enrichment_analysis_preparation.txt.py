@@ -1,10 +1,10 @@
 import pandas as pd
 import os
 
-irf4 = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Irf4_tumor_intersect.txt"
-batf = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Batf_tumor_intersect.txt"
-common = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Common.txt"
-rnaseqexpression = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/edgeRresults/tables/CCR8pICOSpvsCCR8mICOSm.complete.txt"
+irf4 = "/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/Irf4_tumor_intersect.txt"
+batf = "/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/Batf_tumor_intersect.txt"
+common = "/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/Common.txt"
+rnaseqexpression = "/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/MC38vsSpleen.complete.anno.txt"
 #
 dfirf4 = pd.read_csv(irf4,sep="\t",header=None)
 dfbatf = pd.read_csv(batf,sep="\t",header=None)
@@ -27,10 +27,10 @@ BatfFCneg = dfmergeBatf[dfmergeBatf.log2FoldChange < 0]
 CommonFCpos = dfmergeCommon[dfmergeCommon.log2FoldChange >= 0]
 CommonFCneg = dfmergeCommon[dfmergeCommon.log2FoldChange < 0]
 #
-Irf4FCpos[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Irf4FCpos.txt",sep="\t",header=False,index=False)
-Irf4FCneg[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/Irf4FCneg.txt",sep="\t",header=False,index=False)
-BatfFCpos[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/BatfFCpos.txt",sep="\t",header=False,index=False)
-BatfFCneg[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/BatfFCneg.txt",sep="\t",header=False,index=False)
-CommonFCpos[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/CommonFCpos.txt",sep="\t",header=False,index=False)
-CommonFCneg[["Id"]].to_csv("/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/CommonFCneg.txt",sep="\t",header=False,index=False)
+Irf4FCpos[["Id"]].to_csv("/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/Irf4FCpos.txt",sep="\t",header=False,index=False)
+Irf4FCneg[["Id"]].to_csv("/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/Irf4FCneg.txt",sep="\t",header=False,index=False)
+BatfFCpos[["Id"]].to_csv("/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/BatfFCpos.txt",sep="\t",header=False,index=False)
+BatfFCneg[["Id"]].to_csv("/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/BatfFCneg.txt",sep="\t",header=False,index=False)
+CommonFCpos[["Id"]].to_csv("/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/CommonFCpos.txt",sep="\t",header=False,index=False)
+CommonFCneg[["Id"]].to_csv("/Users/simonepuccio/Documents/HumanitasProjects/SP010/Figure5/CommonFCneg.txt",sep="\t",header=False,index=False)
 

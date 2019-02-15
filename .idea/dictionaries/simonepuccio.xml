@@ -5100,6 +5100,7 @@
       <w>TwoBitFile</w>
       <w>TxBiotypeFilter</w>
       <w>TxDb.Hsapiens.UCSC.hg19.knownGene</w>
+      <w>TxDb.Hsapiens.UCSC.hg38.knownGene</w>
       <w>TxDb.Mmusculus.UCSC.mm10.knownGene</w>
       <w>TxEndFilter</w>
       <w>TxIdFilter</w>
@@ -12790,6 +12791,7 @@
       <w>default.stringsAsFactors</w>
       <w>defaultClusterOptions</w>
       <w>defaultDumpName</w>
+      <w>defaultPalettePCA3D</w>
       <w>defaultPrior</w>
       <w>defaultPrototype</w>
       <w>defaultSummary</w>
@@ -19431,6 +19433,7 @@
       <w>listProteinColumns</w>
       <w>listResources</w>
       <w>listSVGDefinitions</w>
+      <w>listShapes</w>
       <w>listTables</w>
       <w>listTxbiotypes</w>
       <w>listUniprotDbs</w>
@@ -19986,6 +19989,7 @@
       <w>makeMPImaster</w>
       <w>makeMaximalPlanar</w>
       <w>makeMethodsList</w>
+      <w>makeMoviePCA</w>
       <w>makeNWScluster</w>
       <w>makeNWSmaster</w>
       <w>makeNames</w>
@@ -20556,6 +20560,7 @@
       <w>metaMDSredist</w>
       <w>metaNameUndo</w>
       <w>metaTemplate</w>
+      <w>metabo</w>
       <w>metaboliteData</w>
       <w>metaboliteDataComplete</w>
       <w>metadata</w>
@@ -22670,6 +22675,8 @@
       <w>pca.plot</w>
       <w>pca.scoreplot</w>
       <w>pca.sig.genes</w>
+      <w>pca2d</w>
+      <w>pca3d</w>
       <w>pcaMethods</w>
       <w>pcaNNet</w>
       <w>pcaPP</w>
@@ -23198,6 +23205,7 @@
       <w>plotchazuh</w>
       <w>plotcircle</w>
       <w>plotcluster</w>
+      <w>plotcorr</w>
       <w>plotcov</w>
       <w>plotcp</w>
       <w>plotdenuh</w>
@@ -27469,6 +27477,7 @@
       <w>snapshot3d</w>
       <w>snapshotDate</w>
       <w>snapshotExclude</w>
+      <w>snapshotPCA3d</w>
       <w>snapshotPreprocessInput</w>
       <w>snapshotPreprocessOutput</w>
       <w>sniffGFFVersion</w>
