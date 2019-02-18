@@ -74,8 +74,6 @@ def bowtie2mappingpairedend(indexname, fastqname, samname):
         print("Mapping of %s with bowtie2 complete." % fastqname)
 
 
-
-
 if __name__ == "__main__":
     index = checkindex(GRCm38indexpath, GRCm38fasta, "GRCm38")
     createdir(mappingout)

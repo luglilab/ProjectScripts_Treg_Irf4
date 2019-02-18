@@ -2,9 +2,9 @@ import sys
 import os
 import subprocess
 # assign variables
-rawdatadir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/raw_data_Nature_C_GSE99167"
+rawdatadir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/raw_data_GSE98264"
 fastqdump = "/home/spuccio/miniconda3/envs/rnaseq_env/bin/fastq-dump"
-SRR_Acc_list = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/SRR_Acc_list_GSE99167.txt"
+SRR_Acc_list = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/SRR_Acc_list_GSE98264.txt"
 
 
 def download_fastqdump():
