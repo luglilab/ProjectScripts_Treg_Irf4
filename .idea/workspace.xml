@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure5/import_data_GSE99167.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,13 +60,49 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Figure4/MappingQC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1069">
-              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="893">
+              <caret line="127" selection-start-line="127" selection-end-line="127" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="87" column="41" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Figure5/import_data_GSE99167.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,39 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="828">
               <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enrichment_analysis_preparation.txt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="29" selection-start-line="29" selection-end-line="34" selection-end-column="141" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enrichment_analysis.R">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="39" selection-end-column="151" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="31" column="50" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="50" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -189,7 +192,6 @@
         <option value="$PROJECT_DIR$/pscan_analysis.py" />
         <option value="$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py" />
         <option value="$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py" />
-        <option value="$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py" />
         <option value="$PROJECT_DIR$/Figure5/rnaseq_Pnas_GSE116347_annotation.py" />
         <option value="$PROJECT_DIR$/venn_plot_chip_IRF4_BATF_tumor.py" />
         <option value="$PROJECT_DIR$/Figure5/Venn_plot_IRF4_BATF_TITR.py" />
@@ -201,6 +203,9 @@
         <option value="$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py" />
         <option value="$PROJECT_DIR$/Figure5/Venn_plot382DegsMC38_vs_BATFKO_BATFWT.py" />
         <option value="$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py" />
+        <option value="$PROJECT_DIR$/Figure4/MappingQC.py" />
+        <option value="$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py" />
+        <option value="$PROJECT_DIR$/Figure5/import_data_GSE99167.py" />
       </list>
     </option>
   </component>
@@ -221,6 +226,11 @@
             <path>
               <item name="ProjectScripts" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectScripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectScripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectScripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Figure4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ProjectScripts" type="b2602c69:ProjectViewProjectNode" />
@@ -326,7 +336,7 @@
       <workItem from="1549121331588" duration="2515000" />
       <workItem from="1550137975189" duration="10877000" />
       <workItem from="1550239317553" duration="7680000" />
-      <workItem from="1550497034358" duration="1156000" />
+      <workItem from="1550497034358" duration="1500000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1547737135432</created>
@@ -573,11 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550250330651</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="MappingQC">
+      <created>1550501935014</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1550501935014</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22228000" />
+    <option name="totallyTimeSpent" value="22572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -655,7 +672,8 @@
     <MESSAGE value="MA plot Fig5" />
     <MESSAGE value="Intersection ko" />
     <MESSAGE value="Intersection Venn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intersection Venn" />
+    <MESSAGE value="MappingQC" />
+    <option name="LAST_COMMIT_MESSAGE" value="MappingQC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/edgeR_output_parser.py" />
@@ -685,26 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="87" column="41" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -853,11 +851,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure4/MappingQC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1069">
-          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+        <state relative-caret-position="893">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie2_CellReport_GSE98264.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="4" selection-end-line="87" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/mapping_Bowtie_NatureCom_GSE99167.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/import_data_GSE99167.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
