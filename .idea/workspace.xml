@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="737c4f03-c030-44c1-909f-23883288cac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Figure5/Venn_plot382DegsMC38_vs_BATFKO_BATFWT.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py" beforeDir="false" afterPath="$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,37 +28,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_IRF4_BATF_TITR.py">
+        <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="65" column="48" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="48" />
+            <state relative-caret-position="828">
+              <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py">
+        <entry file="file://$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+            <state relative-caret-position="1069">
+              <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot382DegsMC38_vs_BATFKO_BATFWT.py">
+        <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="58" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Figure5/MA_plot_Irf4.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="4" column="111" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="111" />
+            <state relative-caret-position="828">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -67,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enrichment_analysis_preparation.txt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="504">
               <caret line="29" selection-start-line="29" selection-end-line="34" selection-end-column="141" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -88,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="50" />
+            <state relative-caret-position="414">
+              <caret line="31" column="50" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="50" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -183,6 +200,7 @@
         <option value="$PROJECT_DIR$/enrichment_analysis_preparation.txt.py" />
         <option value="$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py" />
         <option value="$PROJECT_DIR$/Figure5/Venn_plot382DegsMC38_vs_BATFKO_BATFWT.py" />
+        <option value="$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py" />
       </list>
     </option>
   </component>
@@ -307,7 +325,8 @@
       <updated>1547736917228</updated>
       <workItem from="1549121331588" duration="2515000" />
       <workItem from="1550137975189" duration="10877000" />
-      <workItem from="1550239317553" duration="7316000" />
+      <workItem from="1550239317553" duration="7680000" />
+      <workItem from="1550497034358" duration="1156000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1547737135432</created>
@@ -547,11 +566,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550244897925</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Intersection Venn">
+      <created>1550250330651</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1550250330651</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20708000" />
+    <option name="totallyTimeSpent" value="22228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -559,13 +585,13 @@
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1838761" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18506752" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="3" weight="0.32962137" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50119144" side_tool="true" weight="0.27023014" />
-      <window_info anchor="bottom" id="File Transfer" order="5" weight="0.27542686" />
+      <window_info anchor="bottom" id="File Transfer" order="5" visible="true" weight="0.27542686" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
@@ -573,7 +599,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4988086" visible="true" weight="0.32368225" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4988086" weight="0.32368225" />
       <window_info anchor="right" id="Database" order="0" weight="0.32962668" />
       <window_info anchor="right" id="Remote Host" order="1" weight="0.32962668" />
       <window_info anchor="right" id="R Packages" order="2" weight="0.32962668" />
@@ -628,17 +654,11 @@
     <MESSAGE value="Venn Fig5" />
     <MESSAGE value="MA plot Fig5" />
     <MESSAGE value="Intersection ko" />
-    <option name="LAST_COMMIT_MESSAGE" value="Intersection ko" />
+    <MESSAGE value="Intersection Venn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intersection Venn" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/edgeR_output_parser.py" />
-    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ma_plot.py" />
     <entry file="file://$PROJECT_DIR$/bar_plot.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,16 +674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Figure5/rnaseq_Pnas_GSE116347_annotation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -675,16 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" selection-start-line="18" selection-end-line="36" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,6 +746,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ma_plot_IRF4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_IRF4_BATF_TITR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="48" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot382DegsMC38_vs_BATFKO_BATFWT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="58" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Figure5/MA_plot_Irf4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -753,10 +774,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/enrichment_analysis_preparation.txt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" selection-start-line="29" selection-end-line="34" selection-end-column="141" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/enrichment_analysis.R">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="39" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,51 +818,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pscan_analysis.py">
+    <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="31" column="50" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="50" />
+        <state relative-caret-position="828">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_STAR_Pnas_GSE116347.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qualitycheck_mapping_rnaseq_irf4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping_STAR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Figure4/STAR_mapping_ICOS_CCR8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ma_plot_IRF4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enrichment_analysis_preparation.txt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" selection-start-line="29" selection-end-line="34" selection-end-column="141" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_IRF4_BATF_TITR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="65" column="48" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot382DegsMC38_vs_BATFKO_BATFWT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="58" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Figure5/Venn_plot_382DegsMC38_vs_IRF4KO_IRF4_WT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="66" column="23" lean-forward="true" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
         </state>
       </provider>
     </entry>
