@@ -8,7 +8,7 @@ indexname = "GRCm38"
 # the multimapping flag
 multimap = "4"
 # folder with Mus musculus (house mouse) genome assembly GRCm38 (mm10)
-GRCm38indexpath = "/home/spuccio/AnnotationBowtie2/Mus_musculus/GRCm38.p6/"
+GRCm38indexpath = "/home/spuccio/AnnotationBowtie2/Mus_musculus/GRCm38.p6"
 # bowtie2-build path
 bowtiebuild2path = "/home/spuccio/miniconda3/envs/chipseq_env/bin/bowtie2-build"
 # bowtie2 path
@@ -27,32 +27,50 @@ raw_fastq2 = {"Treg_Irf4_r3": "SRR5483020_1.fastq"}
 
 
 def createdir(dirpath):
+    """
+    Make dir function and check if directory is already exists
+    :param dirpath: string with path and directory name
+    :return:
+    """
     if not os.path.exists(dirpath):
         os.mkdir(dirpath)
         print(" ".join(["Directory", dirpath.split("/")[-1], "Created"]))
     else:
         print(" ".join(["Directory", dirpath.split("/")[-1], "already exists"]))
 
-# check index function
-
 
 def checkindex(indexpath, fastafile, indexname):
-    if os.path.isfile("".join([indexpath, indexname, ".1.bt2"])) == True:
-        print("Genome index of Fasta file already exists.")
-    else:
-        try:
-            os.chdir(GRCm38indexpath)
-            subprocess.check_call(" ".join([bowtiebuild2path, "--threads", threads, fastafile, indexname]),
-                                  shell=True)
-        except subprocess.CalledProcessError:
-            print("ERROR.Fastqc analysis failed. Stop execution.")
-            sys.exit(1)
+    """
+    Check if the genome index already exist and in case create a new one
+    :param indexpath: Output folder
+    :param fastafile: genome fasta file
+    :param indexname: index name
+    :return:
+    """
+    for i in range(1,5):
+        if os.path.isfile("".join([indexpath, "/", indexname, ".", str(i), ".bt2"])) == True:
+            print("Genome index of Fasta file already exists.")
         else:
-            print("Fastq analysis complete.")
+            try:
+                os.chdir(GRCm38indexpath)
+                subprocess.check_call(" ".join([bowtiebuild2path, "--threads", threads, fastafile, indexname]),
+                                      shell=True)
+            except subprocess.CalledProcessError:
+                print("ERROR.Fastqc analysis failed. Stop execution.")
+                sys.exit(1)
+            else:
+                print("Index %d OK" % i)
     return indexname
 
 
 def bowtie2mappingpairedend(indexname, fastqname, samname):
+    """
+    Bowtie2 mapping Paired-end mode
+    :param indexname: path with index name
+    :param fastqname: fastq file
+    :param samname: output SAM name
+    :return:
+    """
     try:
         subprocess.check_call(" ".join([bowtie2path, "-p", threads, "-q", "--local", "-k", multimap,
                                         "-x", indexname, "-X", MAX_FRAG_LEN,
@@ -68,6 +86,13 @@ def bowtie2mappingpairedend(indexname, fastqname, samname):
 
 
 def bowtie2mappingsinglend(indexname, fastqname, samname):
+    """
+    Bowtie2 mapping Single-end mode
+    :param indexname: path with index name
+    :param fastqname: fastq file
+    :param samname: output SAM name
+    :return:
+    """
     try:
         subprocess.check_call(" ".join([bowtie2path, "-p", threads, "-q", "--local", "-k", multimap,
                                         "-x", indexname,
