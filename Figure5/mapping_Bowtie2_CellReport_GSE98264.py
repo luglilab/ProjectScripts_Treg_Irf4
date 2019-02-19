@@ -16,7 +16,7 @@ bowtie2path = "/home/spuccio/miniconda3/envs/chipseq_env/bin/bowtie2"
 # path folder
 projectdir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/"
 # path out file sam
-mappingout = "".join([projectdir, "bowtie2_mapping_GSE98264"])
+mappingout = "".join([projectdir, "bowtie2_mapping_GSE98264/"])
 # input file path
 raw_data_dir = "".join([projectdir, "raw_data_GSE98264/"])
 # Path
@@ -49,7 +49,7 @@ def checkindex(indexpath, fastafile, indexname):
     """
     for i in range(1,5):
         if os.path.isfile("".join([indexpath, "/", indexname, ".", str(i), ".bt2"])) == True:
-            print("Genome index of Fasta file already exists.")
+            print("Genome index %s.%d.bt2 already exists." % (indexname,i))
         else:
             try:
                 os.chdir(GRCm38indexpath)
@@ -63,12 +63,13 @@ def checkindex(indexpath, fastafile, indexname):
     return indexname
 
 
-def bowtie2mappingpairedend(indexname, fastqname, samname):
+def bowtie2mappingpairedend(indexname, fastqname, pathoutput,samname):
     """
     Bowtie2 mapping Paired-end mode
     :param indexname: path with index name
     :param fastqname: fastq file
     :param samname: output SAM name
+    :param pathoutput: path folder output
     :return:
     """
     try:
@@ -76,7 +77,7 @@ def bowtie2mappingpairedend(indexname, fastqname, samname):
                                         "-x", indexname, "-X", MAX_FRAG_LEN,
                                         "-1", "".join([raw_data_dir, fastqname[0]]),
                                         "-2", "".join([raw_data_dir, fastqname[1]]),
-                                        "-S", "".join([mappingout, samname])]),
+                                        "-S", "".join([pathoutput, samname,".sam"])]),
                               shell=True)
     except subprocess.CalledProcessError:
         print("ERROR.Mapping of %s with bowtie2 failed. Stop execution." % fastqname)
@@ -85,19 +86,20 @@ def bowtie2mappingpairedend(indexname, fastqname, samname):
         print("Mapping of %s with bowtie2 complete." % fastqname)
 
 
-def bowtie2mappingsinglend(indexname, fastqname, samname):
+def bowtie2mappingsinglend(indexname, fastqname, pathoutput,samname):
     """
     Bowtie2 mapping Single-end mode
     :param indexname: path with index name
     :param fastqname: fastq file
     :param samname: output SAM name
+    :param pathoutput: path folder output
     :return:
     """
     try:
         subprocess.check_call(" ".join([bowtie2path, "-p", threads, "-q", "--local", "-k", multimap,
                                         "-x", indexname,
                                         "".join([raw_data_dir, fastqname]),
-                                        "-S", "".join([mappingout, samname])]),
+                                        "-S", "".join([pathoutput, samname,".sam"])]),
                               shell=True)
     except subprocess.CalledProcessError:
         print("ERROR.Mapping of %s with bowtie2 failed. Stop execution." % fastqname)
@@ -111,6 +113,6 @@ if __name__ == "__main__":
     createdir(mappingout)
     os.chdir(raw_data_dir)
     for key, value in raw_fastq2.items():
-        bowtie2mappingsinglend("".join([GRCm38indexpath, "/", index]), value, key)
+        bowtie2mappingsinglend("".join([GRCm38indexpath, "/", index]), value, mappingout, key)
     for key, value in raw_fastq.items():
-        bowtie2mappingpairedend("".join([GRCm38indexpath, "/", index]), value, key)
+        bowtie2mappingpairedend("".join([GRCm38indexpath, "/", index]), value, mappingout, key)

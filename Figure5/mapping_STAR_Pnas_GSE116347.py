@@ -49,15 +49,15 @@ os.chdir(maindir)
 # create index directoty
 createdir(starindex)
 # genome index
-# try:
-#     subprocess.check_call(" ".join([star, "--runThreadN", str(thread), "--runMode","genomeGenerate", "--genomeDir",
-#                                     starindex, "--genomeFastaFiles",
-#                                     genomefasta, "--sjdbGTFfile", genomegtf, "--sjdbOverhang", "24"]), shell=True)
-# except (subprocess.CalledProcessError, traceback), e:
-#     print "STAR index of %s fail. Exit" % genomefasta
-#     sys.exit(1)
-# else:
-#     print "STAR index complete."
+try:
+    subprocess.check_call(" ".join([star, "--runThreadN", str(thread), "--runMode","genomeGenerate", "--genomeDir",
+                                    starindex, "--genomeFastaFiles",
+                                    genomefasta, "--sjdbGTFfile", genomegtf, "--sjdbOverhang", "24"]), shell=True)
+except (subprocess.CalledProcessError, traceback), e:
+    print "STAR index of %s fail. Exit" % genomefasta
+    sys.exit(1)
+else:
+    print "STAR index complete."
 # create output folder for BAM files
 createdir(mappingdir)
 # move to mapping dir
@@ -84,25 +84,3 @@ except (subprocess.CalledProcessError, traceback), e:
 else:
     print "MultiQC process complete."
 
-# for i in range(len(fastqreads)):
-#     try:
-#         subprocess.check_call(" ".join(["samtools", "view", "-@", thread, "-hb", "-q", "30",
-#                                         mappingdir + fastqreads[i][0].split("_")[0] + "Aligned.sortedByCoord.out.bam",
-#                                         "-o",
-#                                         mappingdir + fastqreads[i][0].split("_")[0] + "HQ.out.bam"]), shell=True)
-#     except (subprocess.CalledProcessError, traceback), e:
-#         print "Filter low quality reads failed.Exit"
-#         sys.exit(1)
-#     else:
-#         print "Filter low quality reads process complete."
-#
-# for i in range(len(fastqreads)):
-#     try:
-#         subprocess.check_call(" ".join(
-#             ["samtools", "sort", "-@", thread, "-o", mappingdir + fastqreads[i][0].split("_")[0] + "_HQ_sorted.bam",
-#              mappingdir + fastqreads[i][0].split("_")[0] + "HQ.out.bam"]), shell=True)
-#     except (subprocess.CalledProcessError, traceback), e:
-#         print "Conversion BAM to SAM failed.Exit"
-#         sys.exit(1)
-#     else:
-#         print "Conversion BAM to SAM process complete."
