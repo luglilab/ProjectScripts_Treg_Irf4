@@ -2,7 +2,7 @@ import os
 import subprocess
 import sys
 # set path tool
-threads = "40"
+threads = "20"
 MAX_FRAG_LEN = "2000"
 indexname = "GRCm38"
 # the multimapping flag
@@ -16,7 +16,7 @@ bowtie2path = "/home/spuccio/miniconda3/envs/chipseq_env/bin/bowtie2"
 # path folder
 projectdir = "/mnt/datadisk2/spuccio/SP011_Integration_ChipSeqGSE98264_RnaSeqSP010/"
 # path out file sam
-mappingout = "".join([projectdir, "mapping"])
+mappingout = "".join([projectdir, "bowtie2_mapping_GSE99167/"])
 # input file path
 raw_data_dir = "".join([projectdir, "raw_data_Nature_C_GSE99167/"])
 # Path
