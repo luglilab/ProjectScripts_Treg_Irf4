@@ -90,4 +90,4 @@ if __name__ == "__main__":
                  "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4", MACS2_P_Val, outputpath)
     peakscallingnomodel(shutil.which('macs2'), "".join([outputpath, listA[0], ".bed.gz"]),
                         "".join([outputpath, listA[1], ".bed.gz"]),
-                        "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4", MACS2_P_Val, outputpath)
+                        "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4_nomodel", MACS2_P_Val, outputpath)

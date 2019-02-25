@@ -115,4 +115,4 @@ if __name__ == "__main__":
                         "".join([outputpath, listA[3], ".bed.gz"]),
                         "".join([outputpath, listA[4], ".bed.gz"]),
                         "".join([outputpath, listA[5], ".bed.gz"]),
-                        "Treg_Irf4", MACS2_P_Val, outputpath)
+                        "Treg_Irf4_nomodel", MACS2_P_Val, outputpath)
