@@ -7,7 +7,10 @@ command3 = "{macs2} callpeak -t {tagalign1} {tagalign2} {tagalign3} -f BED -g mm
            "--outdir {outdir} "
 command4 = "{macs2} callpeak -t {tagalign1} {tagalign2} {tagalign3} -f BED -g mm -n {outputname} -p {pvalthr} " \
            "--nomodel --extsize 147 --outdir {outdir} "
-
+command5 = "{macs2} callpeak -t {tagalign1} {tagalign2} {tagalign3} -f BED -g mm -n {outputname} -q {pvalthr} " \
+           "--outdir {outdir} "
+command6 = "{macs2} callpeak -t {tagalign1} {tagalign2} {tagalign3} -f BED -g mm -n {outputname} -q {pvalthr} " \
+           "--nomodel --extsize 147 --outdir {outdir} "
 
 def createdir(dirpath):
     """
@@ -53,6 +56,23 @@ def peakscalling(macs2path, tagalign1, tagalign2, tagalign3, outputsuffixname, p
                               outdir=outputdir))
 
 
+def peakscallingqval005(macs2path, tagalign1, tagalign2, tagalign3, outputsuffixname, pval, outputdir):
+    """
+
+    :param macs2path:
+    :param tagalign1:
+    :param tagalign2:
+    :param tagalign3:
+    :param outputsuffixname:
+    :param pval:
+    :param outputdir:
+    :return:
+    """
+    os.system(command5.format(macs2=macs2path, tagalign1=tagalign1, tagalign2=tagalign2, tagalign3=tagalign3,
+                              outputname=outputsuffixname, pvalthr=pval,
+                              outdir=outputdir))
+
+
 def peakscallingnomodel(macs2path, tagalign1, tagalign2, tagalign3, outputsuffixname, pval, outputdir):
     """
 
@@ -67,7 +87,24 @@ def peakscallingnomodel(macs2path, tagalign1, tagalign2, tagalign3, outputsuffix
     """
     os.system(command4.format(macs2=macs2path, tagalign1=tagalign1, tagalign2=tagalign2, tagalign3=tagalign3,
                               outputname=outputsuffixname, pvalthr=pval,
-                              outputdir=outputdir))
+                              outdir=outputdir))
+
+
+def peakscallingnomodelqval005(macs2path, tagalign1, tagalign2, tagalign3, outputsuffixname, pval, outputdir):
+    """
+
+    :param macs2path:
+    :param tagalign1:
+    :param tagalign2:
+    :param tagalign3:
+    :param outputsuffixname:
+    :param pval:
+    :param outputdir:
+    :return:
+    """
+    os.system(command6.format(macs2=macs2path, tagalign1=tagalign1, tagalign2=tagalign2, tagalign3=tagalign3,
+                              outputname=outputsuffixname, pvalthr=pval,
+                              outdir=outputdir))
 
 
 if __name__ == "__main__":
@@ -87,7 +124,14 @@ if __name__ == "__main__":
         listA.append(key[0])
     peakscalling(shutil.which('macs2'), "".join([outputpath, listA[0], ".bed.gz"]),
                  "".join([outputpath, listA[1], ".bed.gz"]),
-                 "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4", MACS2_P_Val, outputpath)
+                 "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4_pval005", MACS2_P_Val, outputpath)
     peakscallingnomodel(shutil.which('macs2'), "".join([outputpath, listA[0], ".bed.gz"]),
                         "".join([outputpath, listA[1], ".bed.gz"]),
-                        "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4_nomodel", MACS2_P_Val, outputpath)
+                        "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4_nomodelpval005", MACS2_P_Val, outputpath)
+    peakscallingqval005(shutil.which('macs2'), "".join([outputpath, listA[0], ".bed.gz"]),
+                        "".join([outputpath, listA[1], ".bed.gz"]),
+                        "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4_qval005", MACS2_P_Val, outputpath)
+    peakscallingnomodelqval005(shutil.which('macs2'), "".join([outputpath, listA[0], ".bed.gz"]),
+                               "".join([outputpath, listA[1], ".bed.gz"]),
+                               "".join([outputpath, listA[2], ".bed.gz"]), "Treg_Irf4_nomodel_qval005", MACS2_P_Val,
+                               outputpath)
