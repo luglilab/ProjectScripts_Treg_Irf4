@@ -19,7 +19,9 @@ dfMerge.drop_duplicates(subset =0, inplace = True)
 dfMerge = dfMerge.drop([0,'Unnamed: 0'], axis=1)
 genenames_MC38 = pd.Series(dfMerge['Id'], index=dfMerge.index)
 ###### Prepare input genename IRF4Ko and IRFWt
-Irf4ko_wt_pval005 = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/IRF4ko_IRF4wt_mouse.Pval.annotated.txt"
+# Rudensky microarray command
+#Irf4ko_wt_pval005 = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/IRF4ko_IRF4wt_mouse.Pval.annotated.txt"
+Irf4ko_wt_pval005 = "/mnt/datadisk2/spuccio/SP010_RnaSeq_Irf4/Figure4/IRF4wt_IRF4ko_mouse.Pval.annotated.txt"
 # create dataframe
 dfIrf4ko_wt_pval005 = pd.read_csv(Irf4ko_wt_pval005,sep="\t",header=0)
 # drop duplicates
