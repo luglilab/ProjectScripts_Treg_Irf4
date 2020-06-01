@@ -1,5 +1,5 @@
 #####Select the work directory (change the path to your files) 
-setwd("~/Desktop/Template")
+setwd("INSERT HERE PATH")
 
 #####Load the gplots package
 library(gplots)
