@@ -1,0 +1,11 @@
+PhenoGraph clusters	Marker_1	Marker_2	Marker_3	Marker_4	Marker_5	Marker_6	Marker_7	Marker_8
+Cluster_1	30.4	0.1	0.5	0.2	0	100	10.5	1.9
+Cluster_2	29.2	0	0.4	1.3	0.2	14.4	10.3	2
+Cluster_3	85	0.2	0.3	67.8	84.2	0	41.4	6.9
+Cluster_4	100	0.6	1	2	2.7	0.3	4.9	3.7
+Cluster_5	61.8	0.5	100	27.4	6.8	1	0	15.8
+Cluster_6	90.5	1	1.5	3.8	20.9	2.6	94.1	4.5
+Cluster_7	93.7	0.2	0.7	37.7	38.5	0.1	5.8	8
+Cluster_8	4.9	100	79.3	55.6	100	3.1	97.8	0.9
+Cluster_9	82.8	1	0	19.5	23.3	22.1	41.3	38.4
+Cluster_10	82.1	0.1	0.3	20.6	16.5	99.7	25.6	7.5
