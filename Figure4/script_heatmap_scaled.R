@@ -1,5 +1,5 @@
 ##### Select the work directory (change the path to your files) 
-setwd("INSERT HERE PATH")
+setwd("./")
 ##### Load the gplots package
 library(gplots)
 ##### Load the txt file (tab delimited)
